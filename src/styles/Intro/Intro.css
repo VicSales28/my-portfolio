@@ -1,0 +1,145 @@
+.intro-container {
+  align-items: center;
+  background-color: var(--gray-purple);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.intro-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: flex-start;
+  padding: 5rem 3rem;
+  width: 50%;
+}
+
+.intro-name {
+  color: var(--lavender);
+  font-size: 2.2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.intro-name span {
+  color: var(--vibrant-pink);
+  cursor: context-menu;
+  text-decoration: none;
+}
+
+.wave {
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  display: inline-block;
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+}
+
+@keyframes wave-animation {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+
+  20% {
+    transform: rotate(-8deg);
+  }
+
+  30% {
+    transform: rotate(14deg);
+  }
+
+  40% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.intro-describe {
+  color: var(--lavender);
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.intro-describe span {
+  display: inline-block;
+  position: relative;
+}
+
+
+.intro-text {
+  color: var(--lavender);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.trybe-link {
+  color: var(--soft-green);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+}
+
+.intro-link {
+  background-color: var(--vibrant-purple);
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+  width: 50%;
+}
+
+.intro-link:hover {
+  background-color: var(--vibrant-var-purple);
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 20%);
+}
+
+.intro-image {
+  padding-bottom: 4rem;
+}
+
+.intro-image a {
+  display: none;
+}
+
+.intro-img {
+  width: 34rem;
+}
+
+@media ( max-width : 780px ) {
+
+  .intro-info {
+    width: 85%;
+  }
+
+  .intro-link {
+    padding: 2rem;
+    width: fit-content;
+  }
+
+  .intro-image {
+    display: none;
+  }
+}

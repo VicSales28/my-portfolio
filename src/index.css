@@ -1,13 +1,64 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+
+:root {
+
+  /* colors */
+
+  --white: rgb(247 240 245);
+
+  --soft-yellow: rgb(241, 239, 87);
+
+  --soft-green: rgb(173, 219, 172);
+
+  --var-lavender: rgb(144, 106, 206);
+
+  --lavender: rgb(212, 171, 212);
+
+  --soft-purple: rgb(238, 195, 238);
+
+  --light-pink: rgb(166, 85, 154);
+
+  --medium-pink: rgb(135, 43, 120);
+
+  --vibrant-pink: rgb(227, 0, 248);
+
+  --vibrant-purple: rgb(121, 26, 255);
+
+  --vibrant-var-purple: rgba(121, 26, 255, 0.877);
+
+  --dark-purple: rgb(28, 20, 28);
+
+  --gray-purple: rgb(43, 34, 43);
+
+  --dark-gray-purple: rgb(36, 27, 36);
+
+  --var-dark: rgb(22, 15, 22);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: Manrope , sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--dark-purple);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(120, 79, 143, 0.959);
+  border-radius: 0.5rem;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(222, 130, 235, 0.911);
+  border-radius: 0.5rem;
 }

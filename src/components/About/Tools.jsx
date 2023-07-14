@@ -1,0 +1,112 @@
+import React, { Component } from 'react';
+
+class Tools extends Component {
+  render() {
+    return (
+      <div className="tools-container">
+        <img
+          alt="Vic-Js"
+          className="tool"
+          src="https://img.shields.io/badge/javascript es6+-F7DF1E?style=for-the-badge&amp;logo=javascript&amp;logoColor=black"
+        />
+        <img
+          alt="Vic-React"
+          className="tool"
+          src="https://img.shields.io/badge/react-61DAFB?style=for-the-badge&amp;logo=react&amp;logoColor=black"
+        />
+        <img
+          alt="Vic-Redux"
+          className="tool"
+          src="https://img.shields.io/badge/Redux-593D88?style=for-the-badge&logo=redux&logoColor=white"
+        />
+        <img
+          alt="Vic-Router"
+          className="tool"
+          src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white"
+        />
+        <img
+          alt="Vic-Jest"
+          className="tool"
+          src="https://img.shields.io/badge/Jest-323330?style=for-the-badge&logo=Jest&logoColor=white"
+        />
+        <img
+          alt="Vic-HTML"
+          className="tool"
+          src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&amp;logo=html5&amp;logoColor=white"
+        />
+        <img
+          alt="Vic-RTL"
+          className="tool"
+          src="https://img.shields.io/badge/testing%20library-323330?style=for-the-badge&logo=testing-library&logoColor=red"
+        />
+        <img
+          alt="Vic-CSS"
+          className="tool"
+          src="https://img.shields.io/badge/css3-1572B6?style=for-the-badge&amp;logo=css3&amp;logoColor=white"
+        />
+        <img
+          alt="Vic-Bulma"
+          className="tool"
+          src="https://img.shields.io/badge/Bulma-00D1B2?style=for-the-badge&logo=Bulma&logoColor=white"
+        />
+        <img
+          alt="Vic-Bootstrap"
+          className="tool"
+          src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white"
+        />
+        <img
+          alt="Vic-Git"
+          className="tool"
+          src="https://img.shields.io/badge/git-F05032?style=for-the-badge&amp;logo=git&amp;logoColor=white"
+        />
+        <img
+          alt="Vic-GitHub"
+          className="tool"
+          src="https://img.shields.io/badge/github-181717?style=for-the-badge&amp;logo=github&amp;logoColor=white"
+        />
+        <img
+          alt="Vic-eslint"
+          className="tool"
+          src="https://img.shields.io/badge/eslint-3A33D1?style=for-the-badge&logo=eslint&logoColor=white"
+        />
+        <img
+          alt="Vic-stylelint"
+          className="tool"
+          src="https://img.shields.io/badge/stylelint-000?style=for-the-badge&logo=stylelint&logoColor=white"
+        />
+        <img
+          alt="Vic-Docker"
+          className="tool"
+          src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white"
+        />
+        <img
+          alt="Vic-MySQL"
+          className="tool"
+          src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white"
+        />
+        <img
+          alt="Vic-NodeJS"
+          className="tool"
+          src="https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white"
+        />
+        <img
+          alt="Vic-Chai"
+          className="tool"
+          src="https://img.shields.io/badge/chai.js-323330?style=for-the-badge&logo=chai&logoColor=red"
+        />
+        <img
+          alt="Vic-Sinon"
+          className="tool"
+          src="https://img.shields.io/badge/sinon.js-323330?style=for-the-badge&logo=sinon"
+        />
+        <img
+          alt="Vic-TypeScript"
+          className="tool"
+          src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white"
+        />
+      </div>
+    );
+  }
+}
+
+export default Tools;

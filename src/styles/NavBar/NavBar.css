@@ -1,0 +1,74 @@
+.header-menu {
+  background-color: var(--dark-gray-purple);
+  box-shadow: 0 0.125rem 0.25rem 0 rgb(0 0 0 / 20%);
+  color: var(--lavender);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  position: sticky;
+  top: -5px;
+  width: 100%;
+  z-index: 2;
+}
+
+.header-signature {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#title {
+  letter-spacing: 0.1rem;
+}
+
+.header-nav {
+  align-items: center;
+  display: flex;
+  font-size: 1.5rem;
+  gap: 2rem;
+}
+
+.header-menu span {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  position: relative;
+}
+
+.header-menu span:after {
+  background-color: var(--lavender);
+  bottom: 0;
+  content: '';
+  font-weight: 500;
+  height: 1px;
+  position: absolute;
+  right: 0;
+  transition: width 0.5s;
+  width: 0;
+}
+
+span:hover:after {
+  font-weight: 500;
+  width: 100%;
+}
+
+#tolinkedin {
+  color: var(--lavender);
+  text-decoration: none;
+}
+
+@media ( max-width : 500px ) {
+
+  .header-menu {
+    display: flex;
+    justify-content: center;
+  }
+
+  .header-nav {
+    font-size: 1.2rem;
+  }
+}

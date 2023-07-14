@@ -1,0 +1,76 @@
+.about-container {
+  align-items: center;
+  background-color: var(--gray-purple);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 5rem;
+}
+
+.about-title {
+  color: var(--lavender);
+  font-size: 2.4rem;
+  font-weight: 600;
+  margin-bottom: 10rem;
+}
+
+.about-title strong {
+  color: var(--vibrant-pink);
+}
+
+.about-pic {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.about-photo {
+  border-radius: 50%;
+  height: 16rem;
+  margin-top: -0.5rem;
+  position: absolute;
+  width: 16rem;
+}
+
+.about-text-container {
+  background-color: var(--dark-purple);
+  border-radius: 0.5rem;
+  color: var(--lavender);
+  display: flex;
+  flex-direction: column;
+  font-size: 1.2rem;
+  letter-spacing: 0.05rem;
+  padding: 2rem;
+  padding-bottom: 0;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 9rem;
+  width: 80%;
+}
+
+.about-text-container p {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.tools-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.tool {
+  border-radius: 0.4rem;
+}
+
+@media ( max-width : 780px ) {
+
+  .about-text-container {
+    width: 80%;
+  }
+}

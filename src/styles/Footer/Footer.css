@@ -1,0 +1,33 @@
+.page-footer {
+  align-content: center;
+  align-items: center;
+  background-color: var(--soft-purple);
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 0.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0.8rem;
+  width: 100%;
+}
+
+.social-icons {
+  width: 1.3rem;
+}
+
+.social-links {
+  align-items: center;
+  padding: 1rem;
+}
+
+@media ( max-width : 500px ) {
+
+  .page-footer {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+}
