@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.08654b84.css",
+    "main.js": "/my-portfolio/static/js/main.b7942a8a.js",
+    "static/media/store-manager.gif": "/my-portfolio/static/media/store-manager.19fff934822aaf64986a.gif",
+    "static/media/playtunes.gif": "/my-portfolio/static/media/playtunes.6102d5be1fc9f7b3089c.gif",
+    "static/media/tryunfo.gif": "/my-portfolio/static/media/tryunfo.a829d292f36c00976f4e.gif",
+    "static/media/solar-system.gif": "/my-portfolio/static/media/solar-system.4f56b38f0c37358617fd.gif",
+    "static/media/planets-search.gif": "/my-portfolio/static/media/planets-search.d1220ea35c6563d14c7f.gif",
+    "static/media/trivia.gif": "/my-portfolio/static/media/trivia.eaf15f72f9c9ae3a95ab.gif",
+    "static/media/pixels-art.gif": "/my-portfolio/static/media/pixels-art.2c0c748fb26093ed68b4.gif",
+    "static/media/digital-wallet.gif": "/my-portfolio/static/media/digital-wallet.0ffea223113f8e219cd8.gif",
+    "static/media/pokedex-with-rtl.png": "/my-portfolio/static/media/pokedex-with-rtl.751fcbaf98700588eea2.png",
+    "static/media/profile-photo.png": "/my-portfolio/static/media/profile-photo.c31cd4a4d0e2093f5965.png",
+    "static/media/RPG.png": "/my-portfolio/static/media/RPG.76a5cc6a061da6bb0512.png",
+    "static/media/web-apps-img.png": "/my-portfolio/static/media/web-apps-img.c5462c603cc5f2e0cb3f.png",
+    "static/media/to-do-list.png": "/my-portfolio/static/media/to-do-list.f2adbd4dee4070ed7e76.png",
+    "static/media/TFC.png": "/my-portfolio/static/media/TFC.f18777f0d9bdd3a01ef1.png",
+    "static/media/git-link.png": "/my-portfolio/static/media/git-link.ed8e95523de87c5568c7.png",
+    "static/media/arrow-link.png": "/my-portfolio/static/media/arrow-link.a99741fba4951be2121a.png",
+    "static/media/github.svg": "/my-portfolio/static/media/github.ebd452bf402237ef25876cdcac686676.svg",
+    "static/media/discord.svg": "/my-portfolio/static/media/discord.a0c4cf7755c6653944b33ca5f7aed92a.svg",
+    "index.html": "/my-portfolio/index.html",
+    "static/media/linkedin.svg": "/my-portfolio/static/media/linkedin.93683c2cc3d5ca884dcf6c3525104a48.svg",
+    "static/media/mail.svg": "/my-portfolio/static/media/mail.6345f82ededa4dc800949734956dc764.svg",
+    "main.08654b84.css.map": "/my-portfolio/static/css/main.08654b84.css.map",
+    "main.b7942a8a.js.map": "/my-portfolio/static/js/main.b7942a8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.08654b84.css",
+    "static/js/main.b7942a8a.js"
+  ]
+}
