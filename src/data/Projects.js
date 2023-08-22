@@ -14,7 +14,8 @@ import twelve from '../styles/Images/Projects/TFC.png';
 export const projectsData = [
   {
     id: 12,
-    projectName: 'Futebol Clube ⚽🏆',
+    projectName: 'Futebol Clube',
+    emoji: ' ⚽🏆',
     projectDesc: 'TFC is an informative football site. I built a dockerized backend with Sequelize data modeling, following project frontend usage guidelines.',
     tags: 'TypeScript - NodeJS - Sequelize - Sinon&Chai',
     code: 'https://github.com/VicSales28/project-futebol-clube',
@@ -23,7 +24,8 @@ export const projectsData = [
   },
   {
     id: 11,
-    projectName: 'RPG Game 🧙‍♂️',
+    projectName: 'RPG Game',
+    emoji: ' 🧙‍♂️',
     projectDesc: 'Created RPG game with fantasy-adventure elements during Object-Oriented Programming studies at Trybe Programming School.',
     tags: 'TypeScript - POO',
     code: 'https://github.com/VicSales28/project-rpg-game',
@@ -50,7 +52,8 @@ export const projectsData = [
   // },
   {
     id: 10,
-    projectName: 'Store Manager 🛍️',
+    projectName: 'Store Manager',
+    emoji: ' 🛍️',
     projectDesc: 'Developed sales management app with CRUD operations for products and sales. Built using a layered software architecture (MSC).',
     tags: 'NodeJS - ExpressJS - Mocha - MySQL - Docker',
     code: 'https://github.com/VicSales28/project-store-manager',
@@ -59,7 +62,8 @@ export const projectsData = [
   },
   {
     id: 9,
-    projectName: 'Starwars Planets Search 🪐',
+    projectName: 'Starwars Planets Search',
+    emoji: ' 🪐',
     projectDesc: 'App fetches Star Wars planets data from an API, populating a filterable table with details like population, orbital period, diameter, etc.',
     tags: 'React - Context API - React Hooks ',
     code: 'https://github.com/VicSales28/project-starwars-planets-search',
@@ -68,7 +72,8 @@ export const projectsData = [
   },
   {
     id: 8,
-    projectName: 'Trivia Master 🔠',
+    projectName: 'Trivia Master',
+    emoji: ' 🔠',
     projectDesc: 'Quiz game inspired by Trivia. Log in, answer questions within time limit, view score based on correct answers and check ranking.',
     tags: 'React - Redux - React Testing Library',
     code: 'https://github.com/VicSales28/project-trivia',
@@ -77,7 +82,8 @@ export const projectsData = [
   },
   {
     id: 7,
-    projectName: 'Digital Wallet 💰',
+    projectName: 'Digital Wallet',
+    emoji: ' 💰',
     projectDesc: 'Expense tracker designed with currency converter. Add/remove expenses, view them in table format, and track total spending converted.',
     tags: 'React - Redux - React Testing Library',
     code: 'https://github.com/VicSales28/project-digital-wallet',
@@ -86,7 +92,8 @@ export const projectsData = [
   },
   {
     id: 6,
-    projectName: 'Pokédex with RTL 🐙',
+    projectName: 'Pokédex with RTL',
+    emoji: ' 🐙',
     projectDesc: 'Tests were developed for a React app using Jest and RTL. The app simulates a Pokédex, and the tests ensure requirement accuracy.',
     tags: 'React - React Testing Library - Jest',
     code: 'https://github.com/VicSales28/project-pokedex-with-RLT',
@@ -95,7 +102,8 @@ export const projectsData = [
   },
   {
     id: 5,
-    projectName: 'PlayTunes 🎶',
+    projectName: 'PlayTunes',
+    emoji: ' 🎶',
     projectDesc: 'Discover music by famous artists & bands. Search albums, play tracks and favorite songs using this app powered by Apple Music API.',
     tags: 'React - React Router - Bootstrap',
     code: 'https://github.com/VicSales28/project-playtunes',
@@ -104,7 +112,8 @@ export const projectsData = [
   },
   {
     id: 4,
-    projectName: 'Ninja Cards 🥷',
+    projectName: 'Ninja Cards',
+    emoji: ' 🥷',
     projectDesc: 'The user can create a customized ninja-themed deck inspired by Uzumaki Naruto and explore the gallery that showcases their unique cards.',
     tags: 'React - Bulma - JavaScript',
     code: 'https://github.com/VicSales28/project-tryunfo',
@@ -113,7 +122,8 @@ export const projectsData = [
   },
   {
     id: 3,
-    projectName: 'Solar System 🪐',
+    projectName: 'Solar System',
+    emoji: ' 🪐',
     projectDesc: 'A basic model of the Solar System using JSX in React. The user can view all the planets and cards with information about space missions.',
     tags: 'React - HTML - CSS - JavaScript',
     code: 'https://github.com/VicSales28/project-solar-system',
@@ -122,7 +132,8 @@ export const projectsData = [
   },
   {
     id: 2,
-    projectName: 'Pixels Art 🎨',
+    projectName: 'Pixels Art',
+    emoji: ' 🎨',
     projectDesc: 'A pixel art editor, using LocalStorage to save drawings. The user can choose a color from a palette and paint whatever he wants on a whiteboard.',
     tags: 'HTML - CSS - JavaScript',
     code: 'https://github.com/VicSales28/project-pixels-art',
@@ -131,7 +142,8 @@ export const projectsData = [
   },
   {
     id: 1,
-    projectName: 'To Do List 📝',
+    projectName: 'To Do List',
+    emoji: ' 📝',
     projectDesc: 'A basic to-do list, using Local Storage to save items. The user can use it to organize his daily tasks: adding, moving order and deleting tasks.',
     tags: 'HTML - CSS - JavaScript',
     code: 'https://github.com/VicSales28/project-to-do-list',

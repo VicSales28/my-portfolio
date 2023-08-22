@@ -38,7 +38,7 @@ class About extends Component {
             but I was always curious about
             {' '}
             <strong>how websites and web applications work</strong>
-            . One day I decided to sign up for a course with more than
+            . One day, I decided to sign up for a course with more than
             {' '}
             <strong>1500 hours</strong>
             {' '}
@@ -53,14 +53,13 @@ class About extends Component {
             {' '}
             <strong>creativity and logic to create amazing, interactive web pages</strong>
             .
-            I dedicated myself to study more and to do personal projects.
-            Today, as a web developer, I am very happy with my
+            I dedicated myself to studying more and working on personal projects. Today, as a web developer, I am extremely happy with my 
             {' '}
             <strong>career transition</strong>
             {' '}
             and
             {' '}
-            <strong>I don&apos;t regret my choice</strong>
+            <strong>I have no regrets about my decision</strong>
             .
           </p>
           <br />

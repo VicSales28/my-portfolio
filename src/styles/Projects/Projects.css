@@ -55,7 +55,11 @@
   }
 
   .project-pic {
-    height: 8rem;
+    height: 6.5rem;
+  }
+
+  .project-emoji {
+    display: none;
   }
 }
 

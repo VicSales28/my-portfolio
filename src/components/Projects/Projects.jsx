@@ -25,6 +25,7 @@ function Projects() {
             key={ project.id }
             id={ project.id }
             name={ project.projectName }
+            emoji={ project.emoji }
             desc={ project.projectDesc }
             tags={ project.tags }
             code={ project.code }

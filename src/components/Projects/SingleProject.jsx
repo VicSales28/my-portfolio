@@ -8,6 +8,7 @@ class SingleProject extends Component {
   render() {
     const {
       name,
+      emoji,
       desc,
       tags,
       code,
@@ -32,7 +33,7 @@ class SingleProject extends Component {
 
           <div className="project-header">
 
-            <h3>{name}</h3>
+            <h3>{name}<span className="project-emoji">{emoji}</span></h3>
 
             <div className="project-icons-box">
               <a
