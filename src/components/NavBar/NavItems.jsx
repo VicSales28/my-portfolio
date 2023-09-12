@@ -1,16 +1,21 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { useNavigate } from 'react-router-dom';
 
 function NavItems() {
   const navigate = useNavigate();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   const redirectToPage = () => {
     navigate('/my-portfolio/dashboards');
   };
 
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
   return (
-    <nav className="header-nav">
+    <div className={`header-nav ${menuOpen ? 'menu-open' : 'menu-close'}`}>
       <span>
         <Link activeClass="active" smooth spy to="about">
           about
@@ -25,24 +30,30 @@ function NavItems() {
 
       <span>
         <button
+          id="dashboards-page-btn"
           onClick={redirectToPage}
-          className="dashboards-page-btn"
-          >
+        >
           dashboards
         </button>
       </span>
 
       <span>
         <a
+          id="tolinkedin"
           href="https://www.linkedin.com/in/victoria-sales-dev/"
           target="_blank"
           rel="noreferrer"
-          id="tolinkedin"
         >
           find me
         </a>
       </span>
-    </nav>
+
+      <button
+        id="hamburger-btn"
+        onClick={toggleMenu}>
+        ☰
+      </button>
+    </div>
   );
 }
 

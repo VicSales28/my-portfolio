@@ -32,25 +32,14 @@
   gap: 2rem;
 }
 
-.dashboards-page-btn {
-  background-color: transparent;
-  border: none;
-  color: var(--lavender);
-  cursor: pointer;
-  font-family: Manrope, sans-serif;
-  font-size: 1.5rem;
-  font-weight: 600;
-  outline: none;
-}
-
-.header-menu span {
+.header-nav span {
   cursor: pointer;
   display: inline-block;
   font-weight: 600;
   position: relative;
 }
 
-.header-menu span:after {
+.header-nav span:after {
   background-color: var(--lavender);
   bottom: 0;
   content: '';
@@ -62,9 +51,26 @@
   width: 0;
 }
 
-span:hover:after {
+.header-nav span:hover:after {
   font-weight: 500;
   width: 100%;
+}
+
+.header-nav.menu-close span {
+  opacity: 0;
+  pointer-events: none;
+  cursor: default;
+}
+
+#dashboards-page-btn {
+  background-color: transparent;
+  border: none;
+  color: var(--lavender);
+  cursor: pointer;
+  font-family: Manrope, sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  outline: none;
 }
 
 #tolinkedin {
@@ -72,20 +78,49 @@ span:hover:after {
   text-decoration: none;
 }
 
+#hamburger-btn {
+  background: transparent;
+  border: none;
+  color: var(--lavender);
+  cursor: pointer;
+  font-size: 2rem;
+}
+
 @media screen and (min-width: 360px) and (max-width: 412px) and (min-height: 640px) and (max-height: 915px) {
-
-  /* Estilos para dispositivos móveis */
-  .header-menu {
-    justify-content: space-evenly;
-  }
-
   .header-nav {
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    font-size: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 0;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: var(--gray);
+    overflow-x: hidden;
+    transition: 0.3s;
+    z-index: 1;
+    padding-top: 1rem;
   }
-
-  .dashboards-page-btn {
-    font-size: 1rem;
+  
+  .header-nav.menu-open {
+    width: 15rem;
+  }
+  
+  .header-nav span {
+    padding: 0.8rem;
+    text-align: center;
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+  }
+  
+  #hamburger-btn {
+    position: fixed;
+    top: 1.25rem;
+    left: 1.25rem;
+    font-size: 1.5rem;
+    color: var(--lavender);
+    z-index: 2;
   }
 }
