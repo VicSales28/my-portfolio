@@ -104,6 +104,13 @@
   transform: scale(1.05);
 }
 
+.project-dataset-btn {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
 .project-tags {
   color: var(--var-lavender);
 }

@@ -1,0 +1,159 @@
+.infocard-container {
+  align-items: center;
+  background-color: var(--gray-purple);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.return-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 2rem;
+  width: 100%;
+  margin-left: 5rem;
+}
+
+.return-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.return-icon {
+  width: 2.5rem;
+}
+
+.return-txt {
+  color: var(--lavender);
+}
+
+.infocard-info {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  justify-content: flex-start;
+  padding: 5rem 3rem;
+  width: 50%;
+}
+
+.infocard-title {
+  color: var(--lavender);
+  font-size: 2.4rem;
+  font-weight: 600;
+}
+
+.infocard-title strong {
+  color: var(--vibrant-pink);
+}
+
+.wave {
+  animation-duration: 2.1s; /* Change to speed up or slow down */
+  animation-iteration-count: infinite; /* Never stop waving :) */
+  animation-name: wave-animation; /* Refers to the name of your @keyframes element below */
+  display: inline-block;
+  transform-origin: 70% 70%; /* Pivot around the bottom-left palm */
+}
+
+@keyframes wave-animation {
+
+  0% {
+    transform: rotate(0deg);
+  }
+
+  10% {
+    transform: rotate(14deg);
+  } /* The following five values can be played with to make the waving more or less extreme */
+
+  20% {
+    transform: rotate(-8deg);
+  }
+
+  30% {
+    transform: rotate(14deg);
+  }
+
+  40% {
+    transform: rotate(-4deg);
+  }
+
+  50% {
+    transform: rotate(10deg);
+  }
+
+  60% {
+    transform: rotate(0deg);
+  } /* Reset for the last half to pause */
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.infocard-text {
+  color: var(--lavender);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.infocard-text-tools {
+  color: var(--soft-purple);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.infocard-text-insights {
+  color: var(--soft-yellow);
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.infocard-image {
+  transition: transform 0.3s ease;
+}
+
+.infocard-image:hover {
+  transform: scale(1.05);
+}
+
+.infocard-image a {
+  display: none;
+}
+
+.infocard-img {
+  width: 28rem;
+  padding-bottom: 2rem;
+}
+
+.infocard-img a {
+  display: none;
+}
+
+
+@media screen and (min-width: 360px) and (max-width: 412px) and (min-height: 640px) and (max-height: 915px) {
+  /* Estilos para dispositivos móveis */
+
+  .return-container {
+    gap: 0.75rem;
+    margin-left: 1rem;
+  }
+
+  .return-icon {
+    width: 2rem;
+  }
+  
+  .return-txt {
+    font-size: 1rem;
+  }
+
+  .infocard-info {
+    width: 85%;
+  }
+  
+  .infocard-image {
+    display: none;
+  }
+}

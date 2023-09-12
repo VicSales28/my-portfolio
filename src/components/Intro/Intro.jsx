@@ -4,7 +4,7 @@ import Type from './Type';
 
 import '../../styles/Intro/Intro.css';
 
-import IntroImg from '../../styles/Images/web-apps-img.png';
+import IntroImg from '../../styles/Images/intro-img.png';
 
 class Intro extends Component {
   render() {
@@ -63,11 +63,11 @@ class Intro extends Component {
 
         <div className="intro-image">
           <img
-            alt="Smartphone apps"
+            alt="Code Illustration"
             className="intro-img"
             src={ IntroImg }
           />
-          <a href="http://www.freepik.com"> Designed by pikisuperstar / Freepik</a>
+          <a href="http://www.iconscout.com"> Designed by Vektora Studio</a>
         </div>
 
       </section>
