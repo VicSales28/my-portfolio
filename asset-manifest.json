@@ -1,33 +1,40 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.08654b84.css",
-    "main.js": "/my-portfolio/static/js/main.b7942a8a.js",
+    "main.css": "/my-portfolio/static/css/main.45f394ed.css",
+    "main.js": "/my-portfolio/static/js/main.ad1e68d4.js",
     "static/media/store-manager.gif": "/my-portfolio/static/media/store-manager.19fff934822aaf64986a.gif",
     "static/media/playtunes.gif": "/my-portfolio/static/media/playtunes.6102d5be1fc9f7b3089c.gif",
+    "static/media/workforce-and-customers.gif": "/my-portfolio/static/media/workforce-and-customers.29e24874c85ff49e8dad.gif",
     "static/media/tryunfo.gif": "/my-portfolio/static/media/tryunfo.a829d292f36c00976f4e.gif",
     "static/media/solar-system.gif": "/my-portfolio/static/media/solar-system.4f56b38f0c37358617fd.gif",
+    "static/media/revenue.gif": "/my-portfolio/static/media/revenue.11f914bb8697c25d2a5b.gif",
     "static/media/planets-search.gif": "/my-portfolio/static/media/planets-search.d1220ea35c6563d14c7f.gif",
     "static/media/trivia.gif": "/my-portfolio/static/media/trivia.eaf15f72f9c9ae3a95ab.gif",
     "static/media/pixels-art.gif": "/my-portfolio/static/media/pixels-art.2c0c748fb26093ed68b4.gif",
     "static/media/digital-wallet.gif": "/my-portfolio/static/media/digital-wallet.0ffea223113f8e219cd8.gif",
     "static/media/pokedex-with-rtl.png": "/my-portfolio/static/media/pokedex-with-rtl.751fcbaf98700588eea2.png",
     "static/media/profile-photo.png": "/my-portfolio/static/media/profile-photo.c31cd4a4d0e2093f5965.png",
+    "static/media/northwind.png": "/my-portfolio/static/media/northwind.3f21e0967148b7e967f7.png",
     "static/media/RPG.png": "/my-portfolio/static/media/RPG.76a5cc6a061da6bb0512.png",
-    "static/media/web-apps-img.png": "/my-portfolio/static/media/web-apps-img.c5462c603cc5f2e0cb3f.png",
+    "static/media/sql-challenges.png": "/my-portfolio/static/media/sql-challenges.b6ad9bd0150531e3a5db.png",
+    "static/media/info-card-img.png": "/my-portfolio/static/media/info-card-img.96656c4911279b573807.png",
+    "static/media/spotifyclone.png": "/my-portfolio/static/media/spotifyclone.6e6feca3e5bdd48a3077.png",
+    "static/media/intro-img.png": "/my-portfolio/static/media/intro-img.1c2f9c130a7f3cd6535b.png",
     "static/media/to-do-list.png": "/my-portfolio/static/media/to-do-list.f2adbd4dee4070ed7e76.png",
     "static/media/TFC.png": "/my-portfolio/static/media/TFC.f18777f0d9bdd3a01ef1.png",
     "static/media/git-link.png": "/my-portfolio/static/media/git-link.ed8e95523de87c5568c7.png",
+    "static/media/data-link.png": "/my-portfolio/static/media/data-link.4823cf26245b14de577d.png",
     "static/media/arrow-link.png": "/my-portfolio/static/media/arrow-link.a99741fba4951be2121a.png",
     "static/media/github.svg": "/my-portfolio/static/media/github.ebd452bf402237ef25876cdcac686676.svg",
     "static/media/discord.svg": "/my-portfolio/static/media/discord.a0c4cf7755c6653944b33ca5f7aed92a.svg",
     "index.html": "/my-portfolio/index.html",
     "static/media/linkedin.svg": "/my-portfolio/static/media/linkedin.93683c2cc3d5ca884dcf6c3525104a48.svg",
     "static/media/mail.svg": "/my-portfolio/static/media/mail.6345f82ededa4dc800949734956dc764.svg",
-    "main.08654b84.css.map": "/my-portfolio/static/css/main.08654b84.css.map",
-    "main.b7942a8a.js.map": "/my-portfolio/static/js/main.b7942a8a.js.map"
+    "main.45f394ed.css.map": "/my-portfolio/static/css/main.45f394ed.css.map",
+    "main.ad1e68d4.js.map": "/my-portfolio/static/js/main.ad1e68d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.08654b84.css",
-    "static/js/main.b7942a8a.js"
+    "static/css/main.45f394ed.css",
+    "static/js/main.ad1e68d4.js"
   ]
 }
